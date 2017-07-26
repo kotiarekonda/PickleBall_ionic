@@ -1,0 +1,153 @@
+page-home {
+    .logostyles{
+        width:100%;
+        height:100%;
+        float:right;
+    }
+    .headingstyles{
+        margin-left: 13%;
+        color: #d2dde5;
+        font-size: 50px;
+        font-weight: 400;
+        text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+                cursor:pointer;
+    }
+    .contentbg{
+        background-color:#153b6d;
+        color:#fff;
+    }
+    .opstionstyles{
+        text-align: center;
+        border: 2px solid #bcccd8;
+        background-color: #143055;
+        color:#f1ee83;
+        margin-top: 10%;
+        cursor:pointer;
+        
+        
+    }
+    .democlass{
+        text-align: center;
+        background-color: #fff;
+        color:#fec010;
+        margin-top: 45%;
+        cursor:pointer;
+    }
+    .SignInShow{
+        position:fixed;
+        top:36%;
+    }
+    .SignInlogostyles{
+        border-radius: 1.5%;
+        margin-left: 38%;
+    }
+    .SignInclose{
+        margin-left: 45%!important;
+        width: 65% !important;
+        max-width: 60% !important;
+    }
+    ion-card img{
+        width:39% !important;
+        max-width:29% !important;
+        text-align: center;
+    }
+    .Signin-inputstyles{
+        border: 1px solid #0e6296;
+        color:#0e6296;
+        border-radius: 2px;
+        width:100%;
+        height:40px !important;
+        margin-top: 5%;
+        cursor:pointer;
+     }
+     .TournmentShow{
+         position:fixed;
+        top:12%;
+     }
+     .Tournment-inputstyles{
+        border: 1px solid #0e6296;
+        color:#0e6296;
+        border-radius: 2px;
+        width:100%;
+        height:40px !important;
+        cursor:pointer;
+     }
+
+     .inputplaceholder::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #0e6296;
+    }
+    .inputplaceholder::-moz-placeholder { /* Firefox 19+ */
+        color: #0e6296;
+    }
+    .inputplaceholder:-ms-input-placeholder { /* IE 10+ */
+        color: #0e6296;
+    }
+    .inputplaceholder:-moz-placeholder { /* Firefox 18- */
+        color: #0e6296;
+    }
+    //MEDIA QUERIES FOR MOBILE SCREENCE.
+    @media screen and (min-width : 320px) and (max-width : 700px) {
+        .headingstyles{
+            margin-left: 5%;
+            color: #d2dde5;
+            font-size: 19px;
+            font-weight: 400;
+            text-shadow: 0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb,
+                0 4px 0 #b9b9b9,
+                0 5px 0 #aaa,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+                    cursor:pointer;
+        }
+        .opstionstyles{
+            text-align: center;
+            border: 2px solid #bcccd8;
+            background-color: #143055;
+            color:#f1ee83;
+            margin-top: 10%;
+            cursor:pointer;
+            font-size: 100%;
+            
+            
+        }
+        .ButtonsMobilstyles ion-col[width-33]{
+            flex: 0 0 80% !important;
+            max-width: 80% !important;
+        }
+        .Headingstylesinmobile ion-col[width-90]{
+            flex: 0 0 85% !important;
+            max-width: 85% !important;
+        }
+        .Logostylesinmobile ion-col[width-10]{
+            flex: 0 0 15% !important;
+            max-width: 15% !important;
+            
+        }
+        .DemoButtoninmobile ion-col[width-10]{
+            flex: 0 0 38% !important;
+            max-width: 38% !important;
+        }
+    }
+    //MEDIA QUERIES FOR TABES SCREENCE.
+    @media screen and (min-width :768px) and (max-width : 1023px){
+        
+    }
+}
